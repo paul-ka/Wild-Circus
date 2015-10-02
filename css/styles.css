@@ -1,0 +1,127 @@
+/* pour indiquer la taille des box hors tout */
+*{box-sizing: border-box;}
+
+/* police caractère circus */
+@font-face {
+font-family: 'Circus';
+src:url('Circus.ttf') format('truetype');
+}
+body{
+	background-color:yellow;
+	margin:0px;
+}
+drapeau{
+	float:left;
+}
+
+#bande{
+	float:left;
+}
+h1{
+	margin-top:0px;
+	font-family: 'Circus', "Arial", serif;
+	text-align: center;
+	color: red;
+	font-size:3em;
+	padding: 0px 0px;
+	}
+.stitre{
+	padding-left:20px;
+	font-family: "Arial", serif;
+	font-size:2em;
+	font-style:italic;
+	font-weight:110;
+}
+a{
+		text-decoration:  none;
+}
+
+section{
+	position:absolute;
+	padding-top:30px;
+}
+.lacarte{
+	width:400px;
+	height:400px;
+	margin : 10px;
+	display : inline-block;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	background-color:#FFD000;
+	vertical-align: top;
+	transition:box-shadow 0.5s;
+	overflow:hidden;
+}
+.lacarte:hover{
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+	
+}
+.lacarte__img{
+	height:400px;
+	overflow:hidden;
+	background-color:#000;
+	transition:height 0.5s;
+
+}
+.lacarte:hover .lacarte__img{
+	height:100px;
+	
+}
+.lacarte__img img{
+	display:block;
+	width:400px;
+	opacity:1;
+}
+
+.lacarte:hover img {
+		opacity:0.6;
+	
+}
+.lacarte__ecrit{
+	padding:10px;
+}
+.lacarte__ecrit__titre, .contenu__titre{
+	font-size:24px;
+	font-family: "Arial", serif;
+	background-color:rgba(255, 255, 255, 0.7);
+	padding:10px;
+}
+.lacarte__ecrit__text{
+	font-size:24px;
+	padding:10px;
+}
+/*Boutons de navigation*/
+.bp1, .bp2 , .bp3 , .bp4, .bp5{
+	height:70px;
+	width:70px;
+	display:inline-block;
+}
+.bp1{
+	background:url('navig.jpg')0px 0px no-repeat;
+}
+.bp2{
+	background:url('navig.jpg')-70px 0px no-repeat;
+}
+.bp3{
+	background:url('navig.jpg')-140px 0px no-repeat;
+}
+.bp4{
+	background:url('navig.jpg')-210px 0px no-repeat;
+}
+.bp5{
+	background:url('navig.jpg')-280px 0px no-repeat;
+}
+.contenu{
+	position:relative;
+	margin:10px;
+
+}
+.image{
+	width:400px;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+contenu__titre{
+}
+.mamap{
+	font-size:2em;
+}
