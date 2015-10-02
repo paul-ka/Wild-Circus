@@ -2,6 +2,7 @@
 include "header.php";
 
 echo '<div class="mamap">';
+echo '<a href="index.php" alt="retour"><div class="bp1"></div></a>';
 echo $chgt.'<a href="chgt/Calendrier.pdf" target="_blank"><img src="css/calendrier.jpg" title="'.$calendrier.'"></a> ';
 echo '<a href="chgt/Affiche.pdf" target="_blank"><img src="css/Affiche.jpg" title="'.$affiche.'"></a><br />';
 ?>

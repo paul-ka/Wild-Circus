@@ -15,7 +15,7 @@
 			<h1>WILD CIRCUS</h1>
 			<?php
 			//initialisation
-			include_once('init.php');
+			//include_once('init.php');
 			//test initialisation $_SESSION
 			if(!isset($_SESSION['lg'])){
 				$_SESSION['lg']='gb';
