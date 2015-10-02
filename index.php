@@ -14,7 +14,7 @@ $img="css/lion.jpg";
 $lien="lion.php";
 carte($img, $index_t4, $index_c4, $lien);
 $img="css/carte.jpg";
-$lien="carte.php";
+$lien="Carte.php";
 carte($img, $index_t5, $index_c5, $lien);
 echo "</section>";
 
