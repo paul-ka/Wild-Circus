@@ -11,7 +11,7 @@
 
 	<body>
 		<header>
-			<img id="bande" src="css/banderole.svg">
+			<img id="bande" src="css/banderole.svg"><br />
 			<h1>WILD CIRCUS</h1>
 			<?php
 			//initialisation
