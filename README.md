@@ -2,7 +2,7 @@
 
 ![Wild-Circus](https://github.com/paul-ka/Wild-Circus/blob/master/css/vignette.png "Wild-Circus")
 
-## Work for the integration of the Wild Code School
+## Work for the integration of the Wild Code School 
 
 Realization of a mini site for a circus
 
